@@ -1,0 +1,184 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width:1200px;
+	margin:0 auto;
+	background-image:url(marble2.jpg);
+	}
+
+div#container {
+	
+	width:1200px;
+	margin:30px 0 0 0;
+	padding: 0 0 20px 0;
+	overflow: hidden;
+	background-color:white;
+
+	}
+
+	
+img#banner {
+	margin:35px 20px 0 0 ;
+	width:860px;
+	float:right;}
+	
+
+nav {
+	float:left;
+	margin:30px 10px 30px 0;}
+	
+li {
+	font-family:"helvetica neue", helvetica, arial, sans-serif; 
+    font-weight: 100;
+	font-size:20px;	
+	padding:8px;
+	clear:left;
+	margin:5px 0 5px 0px;
+	float:left;
+	list-style-type: none;
+	width: 250px;
+	background-color: #70b2c0;
+	text-align: center;
+	border-radius:0px 13px 13px 0;
+	}
+
+li a {
+	text-decoration:none;
+	color: #000000;}
+	
+a#selected {
+	font-style:italic;
+	color:#bbbbbb;
+	font-weight:bold;
+	}
+
+li a#selected:hover {
+	color:#0085d2;
+	}
+
+li a:hover {
+	color:#0085d2;
+	font-style:italic;
+	}
+
+
+	
+div.dummy {
+	clear: left;}
+	
+
+
+p {	
+	margin:20px 0 0 0;
+	color:black;
+	background-color:#bfdce2;
+	font-family:"helvetica neue", helvetica, arial, sans-serif; 
+    font-weight: 100;
+	font-size:20px;
+	text-align:left;}
+
+img#cat1,img#cat2,img#cat3,img#cat4 {
+	border-style:solid;
+	border-radius:20px;
+	border-color:#e7cc77;
+	border-width:19px;
+	display:inline;
+	margin: 10px 0px 0px 40px;}
+	
+
+a:hover {
+	opacity:0.65;}
+	
+
+h2 {
+	padding:10px 10px 20px 10px;
+	width:1140px;
+	float:left;
+	clear:left;
+	margin: 0 0 20px 20px;
+	color:#14505d;
+	background-color:white;
+	font-family:"helvetica neue", helvetica, arial, sans-serif; 
+    font-weight: bold;
+    background-color:#bfdce2;
+	font-size:35px;	}
+	
+footer {
+
+	padding:30px 0px 10px 0px;
+	margin:0 auto;
+}
+p#footer {
+	display:block;
+	background-color:white;
+	padding:16px;
+	margin:0 auto;
+	text-align:right;
+	font-size:13px;}
+
+#move{
+	float:left;}
+	
+frame {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.zoomin img {
+  height: 210px;
+  width: 210px;
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+.zoomin img:hover {
+  width: 230px;
+  height: 230px;
+}
+
+#outline {
+	font-weight:bold;
+	text-decoration:none;
+	color:#70b2c0}
+	
+	
+/* Education.html */
+
+p#bold {
+	font-weight:bold;
+	font-size:25px;
+	color:#14505d;
+	text-decoration:underline;
+	}
+
+img#msu {
+	width:1140px;}
+
+
+img #resume {
+  margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;}
+
+/* Survey */
+
+
+div#content {
+	overflow:hidden;
+	margin:20px 0 0 0;
+	padding:20px 0 20px 0;
+	width:1200px;
+	clear:right;
+	clear:left;
+	background-color:#bfdce2;}
+
+p.gray {
+	font-weight:200;
+	margin:20px;}
+	
+
+	
